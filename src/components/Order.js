@@ -31,7 +31,7 @@ const Order = ({ pizza, setShowModal }) => {
   useEffect(() => {
     setTimeout(() => {
       setShowModal(true);
-    }, 2000);
+    }, 5000);
   }, [setShowModal]);
 
   return (
